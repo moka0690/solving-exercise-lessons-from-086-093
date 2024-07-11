@@ -5,7 +5,6 @@ function Currencyconversion(){
  const CurrencyinEgp = CurrencyinDollars * 15.6;
  const result =`${CurrencyinDollars} USD Dollar = ${CurrencyinEgp.toFixed(2)} Egyptian Pound`
  Viewconversion.innerText = result;
-
 }
 inputfield.oninput = function(){
   Currencyconversion();
